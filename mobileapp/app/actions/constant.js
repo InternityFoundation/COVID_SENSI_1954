@@ -1,7 +1,6 @@
-export const BASE_URL = "http://ip-address:4000/";
-export const API_URL = 'http://ip-addresss:5000';
-//export const API_URL = 'http://192.168.43.147:5000';
-export const IMAGE_URL = 'http://aranpaal2.zisserver.com/';
+export const BASE_URL = "http://localhost:4000/";
+export const API_URL = 'http://localhost:5000';
+export const IMAGE_URL = 'http://localhost/';
 export const pincode=/^([0-9]{6})$/;
 export const onlyletters=/^[A-Za-z ]+$/
 export const onlynumbers=/^[0-9 ]+$/;
