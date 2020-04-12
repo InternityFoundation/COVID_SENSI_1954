@@ -5,8 +5,9 @@ const jwt = require('jsonwebtoken');
 const keys = require('../../config/keys');
 const passport = require('passport');
 const SendOtp = require('sendotp');
-const sendOtp = new SendOtp('300845A7TKEiXM5db2e078', 'Covid App Track {{otp}} for Login');
-const otpRegister = new SendOtp('300845A7TKEiXM5db2e078', 'Covid App Track OTP for your account {{otp}}');
+// Add your OTP API toek below, we have used msg91.com
+const sendOtp = new SendOtp('asdfsdfsdfsdfd', 'Covid App Track {{otp}} for Login');
+const otpRegister = new SendOtp('abcdefggshshshshs', 'Covid App Track OTP for your account {{otp}}');
 //Load input Validation
 const validateUserLoginInput    = require('../../validation/User/login');
 const validateUserInput    = require('../../validation/User/UserValidation');
