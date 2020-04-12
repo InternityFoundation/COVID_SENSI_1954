@@ -23,4 +23,9 @@ Technology Stack :
 - Hosted in AWS 
 
 How to run:?
-- Change the API key for OTP before you execute
+- Change the API key for OTP before you execute in routes/api
+---- admin.js
+---- user.js
+- do git clone
+- do npm install 
+- npm run start
