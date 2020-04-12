@@ -1,5 +1,5 @@
-export const BASE_URL = "http://192.168.10.8:4000/";
-export const API_URL = 'http://ec2-3-6-145-165.ap-south-1.compute.amazonaws.com:5000';
+export const BASE_URL = "http://ip-address:4000/";
+export const API_URL = 'http://ip-addresss:5000';
 //export const API_URL = 'http://192.168.43.147:5000';
 export const IMAGE_URL = 'http://aranpaal2.zisserver.com/';
 export const pincode=/^([0-9]{6})$/;
