@@ -114,7 +114,7 @@ class UserProfile extends Component {
 					</View>
 					<View style={{justifyContent:'center',alignItems:'center',marginTop:15}}>
 						<QRCode
-							value={`http://ec2-3-6-145-165.ap-south-1.compute.amazonaws.com:5000/viewqr/${qrcodeData._id}`}
+							value={`http://ip-address:5000/viewqr/${qrcodeData._id}`}
 							size={200}
 							bgColor='#273167'
 							/>
