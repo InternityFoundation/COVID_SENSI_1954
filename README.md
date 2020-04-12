@@ -22,4 +22,5 @@ Technology Stack :
 - REACT Native for Mobile Application
 - Hosted in AWS 
 
-
+How to run:?
+- Change the API key for OTP before you execute
