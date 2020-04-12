@@ -6,7 +6,8 @@ const keys = require('../../config/keys');
 const passport = require('passport');
 const mongoose = require('mongoose');
 const SendOtp = require('sendotp');
-const sendOtp = new SendOtp('228864ASB93U4Nk5b5ea5a3', 'Manjappai OTP for your account {{otp}}');
+// replace your OTP API Key below
+const sendOtp = new SendOtp('228864ASB93U4Nk5bsafsdf', 'OTP for your account {{otp}}');
 const axios = require('axios');
 
 //Load input Validation
